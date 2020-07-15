@@ -1,6 +1,4 @@
-Rust Solutions for LeetCode.
-
-## Problem List.
+# Rust Solutions for LeetCode.
 
 - [x] 0001. Two Sum.
 - [x] 0002. Add Two Numbers.
