@@ -1,4 +1,4 @@
-# Rust Solutions for LeetCode.
+Rust Solutions for LeetCode.
 
 ## Problem List.
 
