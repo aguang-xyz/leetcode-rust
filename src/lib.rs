@@ -1,1 +1,1 @@
-mod solution;
+pub mod solution;

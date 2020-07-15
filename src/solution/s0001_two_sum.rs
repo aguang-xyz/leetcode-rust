@@ -27,7 +27,7 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn test_s0001() {
+    fn test_0001() {
         assert_eq!(vec![0, 1], Solution::two_sum(vec![2, 7, 11, 15], 9));
     }
 }
