@@ -7,3 +7,4 @@
 - [x] 0005. Longest Palindromic Substring.
 - [x] 0006. ZigZag Conversion.
 - [x] 0007. Reverse Integer.
+- [x] 0008. String to Integer (atoi).

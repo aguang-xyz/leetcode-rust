@@ -5,3 +5,4 @@ pub mod s0004_median_of_two_sorted_arrays;
 pub mod s0005_longest_palindromic_substring;
 pub mod s0006_zigzag_conversion;
 pub mod s0007_reverse_integer;
+pub mod s0008_string_to_integer_atoi;
