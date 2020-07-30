@@ -6,3 +6,4 @@
 - [x] 0004. Median of Two Sorted Arrays.
 - [x] 0005. Longest Palindromic Substring.
 - [x] 0006. ZigZag Conversion.
+- [x] 0007. Reverse Integer.
