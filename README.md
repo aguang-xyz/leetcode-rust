@@ -1,5 +1,7 @@
 # Leetcode Solutions in Rust.
 
+![Rust](https://github.com/aguang-xyz/leetcode-rust/workflows/Rust/badge.svg)
+
 - [x] 0001. Two Sum.
 - [x] 0002. Add Two Numbers.
 - [x] 0003. Longest Substring Without Repeating Characters.
