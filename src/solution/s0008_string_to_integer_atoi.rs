@@ -58,7 +58,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_0001() {
+    fn test_0008() {
         assert_eq!(Solution::my_atoi(String::from("42")), 42);
         assert_eq!(Solution::my_atoi(String::from("   -42")), -42);
         assert_eq!(Solution::my_atoi(String::from("4193 with words")), 4193);
