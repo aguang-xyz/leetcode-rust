@@ -8,3 +8,4 @@
 - [x] 0006. ZigZag Conversion.
 - [x] 0007. Reverse Integer.
 - [x] 0008. String to Integer (atoi).
+- [x] 0009. Palindrome Number.
