@@ -8,3 +8,4 @@ pub mod s0007_reverse_integer;
 pub mod s0008_string_to_integer_atoi;
 pub mod s0009_palindrome_number;
 pub mod s0010_regular_expression_matching;
+pub mod s0011_container_with_most_water;
