@@ -10,3 +10,4 @@ pub mod s0009_palindrome_number;
 pub mod s0010_regular_expression_matching;
 pub mod s0011_container_with_most_water;
 pub mod s0012_integer_to_roman;
+pub mod s0013_roman_to_integer;
