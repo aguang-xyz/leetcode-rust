@@ -58,9 +58,10 @@ mod tests {
 
     #[test]
     fn test_0015() {
-        assert_eq!(
-            Solution::three_sum(vec![-1, 0, 1, 2, -1, -4]),
-            vec![vec![-1, 0, 1], vec![-1, -1, 2]]
+        assert!(
+            Solution::three_sum(vec![-1, 0, 1, 2, -1, -4]) == vec![vec![-1, -1, 2], vec![-1, 0, 1]]
+                || Solution::three_sum(vec![-1, 0, 1, 2, -1, -4])
+                    == vec![vec![-1, 0, 1], vec![-1, -1, 2]]
         );
     }
 }
