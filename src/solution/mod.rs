@@ -13,3 +13,4 @@ pub mod s0012_integer_to_roman;
 pub mod s0013_roman_to_integer;
 pub mod s0014_longest_common_prefix;
 pub mod s0015_3sum;
+pub mod s0016_3sum_closest;
