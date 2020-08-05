@@ -21,3 +21,4 @@
 - [x] 0017. Letter Combinations of a Phone Number.
 - [x] 0018. 4Sum.
 - [x] 0019. Remove Nth Node From End of List.
+- [x] 0020. Valid Parentheses.
