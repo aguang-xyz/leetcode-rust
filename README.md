@@ -22,3 +22,4 @@
 - [x] 0018. 4Sum.
 - [x] 0019. Remove Nth Node From End of List.
 - [x] 0020. Valid Parentheses.
+- [x] 0021. Merge Two Sorted Lists.
