@@ -20,3 +20,4 @@ pub mod s0019_remove_nth_node_from_end_of_list;
 pub mod s0020_valid_parentheses;
 pub mod s0021_merge_two_sorted_lists;
 pub mod s0022_generate_parenthesis;
+pub mod s0023_merge_k_sorted_list;

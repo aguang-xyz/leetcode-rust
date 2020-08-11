@@ -24,3 +24,4 @@
 - [x] 0020. Valid Parentheses.
 - [x] 0021. Merge Two Sorted Lists.
 - [x] 0022. Generate Parentheses.
+- [x] 0023. Merge k Sorted Lists.
