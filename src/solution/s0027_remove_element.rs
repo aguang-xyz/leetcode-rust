@@ -17,7 +17,7 @@ mod tests {
     use super::*;
 
     #[test]
-    pub fn test_0026() {
+    pub fn test_0027() {
         let mut vec = vec![3, 2, 2, 3];
 
         Solution::remove_element(&mut vec, 3);
