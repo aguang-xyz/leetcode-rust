@@ -23,3 +23,4 @@ pub mod s0022_generate_parenthesis;
 pub mod s0023_merge_k_sorted_list;
 pub mod s0024_swap_nodes_in_pairs;
 pub mod s0025_reverse_nodes_in_k_group;
+pub mod s0026_remove_duplicates_from_sorted_array;

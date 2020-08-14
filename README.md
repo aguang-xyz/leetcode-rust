@@ -27,3 +27,4 @@
 - [x] 0023. Merge k Sorted Lists.
 - [x] 0024. Swap Nodes in Pairs.
 - [x] 0025. Reverse Nodes in k-Group.
+- [x] 0026. Remove Duplicates from Sorted Array.
