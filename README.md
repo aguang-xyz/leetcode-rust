@@ -37,3 +37,4 @@
 - [x] 0033. Search in Rotated Sorted Array.
 - [x] 0034. Find First and Last Position of Element in Sorted Array.
 - [x] 0035. Search Insert Position.
+- [x] 0036. Valid Sudoku.
