@@ -32,3 +32,4 @@
 - [x] 0028. Implement strStr().
 - [x] 0029. Divide Two Integers.
 - [x] 0030. Substring with Concatenation of All Words.
+- [x] 0031. Next Permutation.
