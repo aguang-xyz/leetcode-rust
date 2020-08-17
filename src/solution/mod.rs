@@ -27,3 +27,4 @@ pub mod s0026_remove_duplicates_from_sorted_array;
 pub mod s0027_remove_element;
 pub mod s0028_implement_strstr;
 pub mod s0029_divide_two_integers;
+pub mod s0030_substring_with_concatenation_of_all_words;
