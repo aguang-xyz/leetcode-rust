@@ -35,3 +35,4 @@
 - [x] 0031. Next Permutation.
 - [x] 0032. Longest Valid Parentheses.
 - [x] 0033. Search in Rotated Sorted Array.
+- [x] 0034. Find First and Last Position of Element in Sorted Array.
