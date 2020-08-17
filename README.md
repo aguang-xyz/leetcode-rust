@@ -34,3 +34,4 @@
 - [x] 0030. Substring with Concatenation of All Words.
 - [x] 0031. Next Permutation.
 - [x] 0032. Longest Valid Parentheses.
+- [x] 0033. Search in Rotated Sorted Array.
