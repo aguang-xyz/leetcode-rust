@@ -33,3 +33,4 @@
 - [x] 0029. Divide Two Integers.
 - [x] 0030. Substring with Concatenation of All Words.
 - [x] 0031. Next Permutation.
+- [x] 0032. Longest Valid Parentheses.
