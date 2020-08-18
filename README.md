@@ -39,3 +39,4 @@
 - [x] 0035. Search Insert Position.
 - [x] 0036. Valid Sudoku.
 - [x] 0037. Sudoku Solver.
+- [x] 0038. Count and Say.
