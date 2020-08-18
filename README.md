@@ -42,3 +42,4 @@
 - [x] 0038. Count and Say.
 - [x] 0039. Combination Sum.
 - [x] 0040. Combination Sum II.
+- [x] 0041. First Missing Positive.
