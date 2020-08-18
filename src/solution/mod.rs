@@ -39,3 +39,4 @@ pub mod s0038_count_and_say;
 pub mod s0039_combination_sum;
 pub mod s0040_combination_sum_ii;
 pub mod s0041_first_missing_positive;
+pub mod s0042_trapping_rain_water;
