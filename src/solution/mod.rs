@@ -43,3 +43,4 @@ pub mod s0042_trapping_rain_water;
 pub mod s0043_multiply_strings;
 pub mod s0044_wildcard_matching;
 pub mod s0045_jump_game_ii;
+pub mod s0046_permutations;

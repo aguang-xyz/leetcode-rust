@@ -47,3 +47,4 @@
 - [x] 0043. Multiply Strings.
 - [x] 0044. Wildcard Matching.
 - [x] 0045. Jump Game II.
+- [x] 0046. Permutations
