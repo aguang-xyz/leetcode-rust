@@ -36,3 +36,4 @@ pub mod s0035_search_insert_position;
 pub mod s0036_valid_sudoku;
 pub mod s0037_sudoku_solver;
 pub mod s0038_count_and_say;
+pub mod s0039_combination_sum;
