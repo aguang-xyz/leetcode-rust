@@ -48,3 +48,4 @@ pub mod s0047_permutations_ii;
 pub mod s0048_rotate_image;
 pub mod s0049_group_anagrams;
 pub mod s0050_powx_n;
+pub mod s0051_n_queens;
