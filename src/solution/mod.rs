@@ -52,3 +52,4 @@ pub mod s0051_n_queens;
 pub mod s0052_n_queens_ii;
 pub mod s0053_maximum_subarray;
 pub mod s0054_spiral_matrix;
+pub mod s0055_jump_game;
