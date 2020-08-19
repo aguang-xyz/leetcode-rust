@@ -59,3 +59,4 @@
 - [x] 0055. Jump Game.
 - [x] 0056. Merge Intervals.
 - [x] 0057. Insert Interval.
+- [x] 0058. Length of Last Word.
