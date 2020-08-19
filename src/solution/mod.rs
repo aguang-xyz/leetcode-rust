@@ -57,3 +57,4 @@ pub mod s0056_merge_intervals;
 pub mod s0057_insert_interval;
 pub mod s0058_length_of_last_word;
 pub mod s0059_spiral_matrix_ii;
+pub mod s0060_permutation_sequence;

@@ -61,3 +61,4 @@
 - [x] 0057. Insert Interval.
 - [x] 0058. Length of Last Word.
 - [x] 0059. Spiral Matrix II.
+- [x] 0060. Permutation Sequence.
