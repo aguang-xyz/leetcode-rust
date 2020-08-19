@@ -63,3 +63,4 @@
 - [x] 0059. Spiral Matrix II.
 - [x] 0060. Permutation Sequence.
 - [x] 0061. Rotate List.
+- [x] 0062. Unique Paths.
