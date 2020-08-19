@@ -57,3 +57,4 @@
 - [x] 0053. Maximum Subarray.
 - [x] 0054. Spiral Matrix.
 - [x] 0055. Jump Game.
+- [x] 0056. Merge Intervals.
