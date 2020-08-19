@@ -55,7 +55,7 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn test_0051() {
+    fn test_0052() {
         assert_eq!(Solution::total_n_queens(4), 2);
     }
 }
