@@ -50,3 +50,4 @@
 - [x] 0046. Permutations.
 - [x] 0047. Permutations II.
 - [x] 0048. Rotate Image.
+- [x] 0049. Group Anagrams.

@@ -46,3 +46,4 @@ pub mod s0045_jump_game_ii;
 pub mod s0046_permutations;
 pub mod s0047_permutations_ii;
 pub mod s0048_rotate_image;
+pub mod s0049_group_anagrams;
