@@ -53,3 +53,4 @@
 - [x] 0049. Group Anagrams.
 - [x] 0050. Pow(x, n).
 - [x] 0051. N-Queens.
+- [x] 0052. N-Queens II.
