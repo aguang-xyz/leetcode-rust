@@ -10,27 +10,26 @@ use std::path::Path;
 fn fetch_problem(title_slug: String) {
     let response = Query::question_data(title_slug.clone()).invoke();
 
-    let question = response["data"].as_object().unwrap()["question"]
-        .as_object()
-        .unwrap();
+    match &response["data"].as_object().unwrap()["question"] {
+        serde_json::Value::Object(question) => {
+            let id: i32 = question["questionId"]
+                .as_str()
+                .unwrap()
+                .parse::<i32>()
+                .unwrap();
 
-    let id: i32 = question["questionId"]
-        .as_str()
-        .unwrap()
-        .parse::<i32>()
-        .unwrap();
+            let path: String = format!(
+                "src/solution/s{:04}_{}.rs",
+                id,
+                title_slug
+                    .chars()
+                    .map(|c| if c == '-' { '_' } else { c })
+                    .collect::<String>()
+            );
 
-    let path: String = format!(
-        "src/solution/s{:04}_{}.rs",
-        id,
-        title_slug
-            .chars()
-            .map(|c| if c == '-' { '_' } else { c })
-            .collect::<String>()
-    );
-
-    let source: String =
-        serde_json::from_str::<serde_json::Value>(question["codeDefinition"].as_str().unwrap())
+            let source: String = serde_json::from_str::<serde_json::Value>(
+                question["codeDefinition"].as_str().unwrap(),
+            )
             .unwrap()
             .as_array()
             .unwrap()
@@ -40,29 +39,35 @@ fn fetch_problem(title_slug: String) {
             .next()
             .unwrap();
 
-    let source = vec![
-        "pub struct solution {}",
-        "",
-        source.as_str(),
-        "",
-        "#[cfg(test)]",
-        "mod tests {",
-        "    use super::Solution;",
-        "",
-        "    #[test]",
-        format!("    fn test_{:04}() {}", id, "{").as_str(),
-        "    }",
-        "}",
-    ]
-    .join("\n");
+            let source = vec![
+                "pub struct solution {}",
+                "",
+                source.as_str(),
+                "",
+                "#[cfg(test)]",
+                "mod tests {",
+                "    use super::Solution;",
+                "",
+                "    #[test]",
+                format!("    fn test_{:04}() {}", id, "{").as_str(),
+                "    }",
+                "}",
+            ]
+            .join("\n");
 
-    if Path::new(&path).exists() {
-        return println!("[💥] Cannot create file `{}` (already exists).", path);
-    }
+            if Path::new(&path).exists() {
+                return println!("[💥] Cannot create file `{}` (already exists).", path);
+            }
 
-    fs::write(path.clone(), source).expect("Unable to write file");
+            fs::write(path.clone(), source).expect("Unable to write file");
 
-    println!("[🌟] File `{}` created.", path);
+            println!("[🌟] File `{}` created.", path);
+        }
+
+        _ => {
+            println!("[💥] Cannot fetch the question (may not exist).");
+        }
+    };
 }
 
 fn show_help() {
