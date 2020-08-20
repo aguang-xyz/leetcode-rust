@@ -85,3 +85,4 @@ cargo run fetch plus-one
 - [x] 0065. Valid Number.
 - [x] 0066. Plus One.
 - [x] 0067. Add Binary.
+- [x] 0068. Text Justification.
