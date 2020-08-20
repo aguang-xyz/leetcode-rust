@@ -2,6 +2,22 @@
 
 ![Rust](https://github.com/aguang-xyz/leetcode-rust/workflows/Rust/badge.svg)
 
+## Usage.
+
+### Fetch a new problem.
+
+```bash
+cargo run fetch [title-slug]
+```
+
+When you want to solve a new problem (eg. **66. Plus One** where the url is [https://leetcode.com/problems/plus-one/](https://leetcode.com/problems/plus-one/)), the following command can help you to fetch related info and generate a new source file (`./src/solution/0066_plus_one.rs`).
+
+```bash
+cargo run fetch plus-one
+```
+
+## Problem list.
+
 - [x] 0001. Two Sum.
 - [x] 0002. Add Two Numbers.
 - [x] 0003. Longest Substring Without Repeating Characters.
