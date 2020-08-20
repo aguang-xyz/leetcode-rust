@@ -95,7 +95,7 @@ mod tests {
                     String::from("word"),
                 ]
             ),
-            vec![]
+            Vec::<i32>::new()
         );
 
         assert_eq!(
@@ -111,7 +111,10 @@ mod tests {
             vec![8]
         );
 
-        assert_eq!(Solution::find_substring(String::from("a"), vec![]), vec![]);
+        assert_eq!(
+            Solution::find_substring(String::from("a"), vec![]),
+            Vec::<i32>::new()
+        );
 
         let ret = Solution::find_substring(
             String::from("aaaaaaaa"),
