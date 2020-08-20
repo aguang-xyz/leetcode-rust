@@ -40,7 +40,7 @@ fn fetch_problem(title_slug: String) {
             .unwrap();
 
             let source = vec![
-                "pub struct solution {}",
+                "pub struct Solution {}",
                 "",
                 source.as_str(),
                 "",
