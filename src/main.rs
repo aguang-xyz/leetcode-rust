@@ -5,6 +5,8 @@ use leetcode::query::Query;
 use serde_json;
 use std::env;
 use std::fs;
+use std::fs::OpenOptions;
+use std::io::Write;
 use std::path::Path;
 
 fn fetch_problem(title_slug: String) {
@@ -60,6 +62,22 @@ fn fetch_problem(title_slug: String) {
             }
 
             fs::write(path.clone(), source).expect("Unable to write file");
+
+            let mut mod_file = OpenOptions::new()
+                .append(true)
+                .open("./src/solution/mod.rs")
+                .unwrap();
+
+            write!(
+                mod_file,
+                "pub mod s{:04}_{};",
+                id,
+                title_slug
+                    .chars()
+                    .map(|c| if c == '-' { '_' } else { c })
+                    .collect::<String>()
+            )
+            .expect("Unable to write `src/solution/mod.rs`.");
 
             println!("[🌟] File `{}` created.", path);
         }
