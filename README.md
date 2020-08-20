@@ -86,3 +86,4 @@ cargo run fetch plus-one
 - [x] 0066. Plus One.
 - [x] 0067. Add Binary.
 - [x] 0068. Text Justification.
+- [x] 0069. Sqrt(x).
