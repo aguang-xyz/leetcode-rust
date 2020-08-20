@@ -83,3 +83,5 @@ cargo run fetch plus-one
 - [x] 0063. Unique Paths II.
 - [x] 0064. Minimum Path Sum.
 - [x] 0065. Valid Number.
+- [x] 0066. Plus One.
+- [x] 0067. Add Binary.
