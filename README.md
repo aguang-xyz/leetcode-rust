@@ -87,3 +87,4 @@ cargo run fetch plus-one
 - [x] 0067. Add Binary.
 - [x] 0068. Text Justification.
 - [x] 0069. Sqrt(x).
+- [x] 0070. Climbing Stairs.

@@ -64,4 +64,4 @@ pub mod s0063_unique_paths_ii;
 pub mod s0064_minimum_path_sum;
 pub mod s0065_valid_number;
 pub mod s0066_plus_one;
-pub mod s0067_add_binary;pub mod s0068_text_justification;pub mod s0069_sqrtx;
+pub mod s0067_add_binary;pub mod s0068_text_justification;pub mod s0069_sqrtx;pub mod s0070_climbing_stairs;
