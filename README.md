@@ -88,3 +88,4 @@ cargo run fetch plus-one
 - [x] 0068. Text Justification.
 - [x] 0069. Sqrt(x).
 - [x] 0070. Climbing Stairs.
+- [x] 0071. Simplify Path.
