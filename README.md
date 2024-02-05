@@ -1,6 +1,6 @@
 # Leetcode Solutions in Rust.
 
-![Rust](https://github.com/aguang-xyz/leetcode-rust/workflows/Rust/badge.svg)
+![CI](https://github.com/aguang-xyz/leetcode-rust/workflows/CI/badge.svg)
 
 ## Usage.
 
